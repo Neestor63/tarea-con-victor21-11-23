@@ -1,0 +1,105 @@
+html{
+    font-size: 62.5%;
+    background-color: var(--casiblanco);
+}
+
+:root{
+    
+    --Fondo: hsl(179, 62%, 43%);
+    --Verdecantoso: hsl(71, 73%, 54%);
+    --casiblanco: hsl(204, 43%, 93%);
+    --gris: hsl(218, 22%, 67%);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 10%;
+}
+
+@media (min-width: 768px){
+    main{
+        grid: ;
+    }
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: 'Karla', sans-serif;
+}
+
+.Join{
+    background-color:white;
+    margin-top: 7rem;
+    margin-bottom: 0rem;
+    padding: 2rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+
+h1{
+    color: var(--Fondo);
+}
+
+.parrafo1{
+    color: var(--Verdecantoso);
+}
+
+.parrafo2{
+    color: var(--gris);
+    line-height: 3rem;
+}
+
+.Monthly{
+    background-color: var(--Fondo);
+    color: white;
+    margin-top: 0rem;
+    padding: 2rem;
+}
+
+.Monthly a{
+    background-color: var(--Verdecantoso);
+    text-decoration: none;
+    color: white;
+    padding: 1rem 30%;
+    border-radius: .5rem;
+    box-shadow: 1px 6px 30px -1px rgba(0,0,0,0.75);
+}
+
+.permonth{
+    opacity: 0.7;
+    font-size: 1.6rem;
+}
+
+span{
+    font-size: 5rem;
+    margin-right: 1rem;
+    
+}
+
+
+
+.Why{
+    background-color: var(--Fondo);
+    color: white;
+    margin-top: 0rem;
+    padding: 3rem;
+    opacity: 0.8;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    
+}
+
+.Why p{
+    margin-right: 7%;
+    opacity: 0.7;
+    line-height: 3rem;
+}
+
+.boton{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
